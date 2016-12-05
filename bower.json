@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-material-datetimepicker",
   "description": "Material datetimepicker with minimal dependencies as modal overlay",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "keywords": [
     "css",
     "js",
