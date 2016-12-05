@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-material-datetimepicker",
   "description": "Material datetimepicker with minimal dependencies as modal overlay",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "keywords": [
     "css",
     "js",
@@ -28,6 +28,6 @@
   "dependencies": {
     "momentjs": "~2.10.2",
     "bootstrap": "~3.3.4",
-    "jquery": "~2.0"
+    "jquery": ">=2.0"
   }
 }
