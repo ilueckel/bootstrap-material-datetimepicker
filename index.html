@@ -213,6 +213,27 @@
 				</div>
 			</div>
 		</div>
+		<div class="container well">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Date Picker that opens on button click</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-control-wrapper">
+						<input type="text" id="dateButton" class="form-control floating-label" placeholder="Date">
+					</div>
+					<button id="button">Open Calendar</button>
+				</div>
+				<div class="col-md-6">
+					<code>
+						<p>Code</p>
+						$('#dateButton').bootstrapMaterialDatePicker({ weekStart : 0, time: false, triggerOnButton:$('#button') });
+					</code>
+				</div>
+			</div>
+		</div>
 		<script type="text/javascript">
 		$(document).ready(function()
 		{
@@ -256,6 +277,7 @@
 			});
 
 			$('#min-date').bootstrapMaterialDatePicker({ format : 'DD/MM/YYYY HH:mm', minDate : new Date() });
+            $('#dateButton').bootstrapMaterialDatePicker({ weekStart : 0, time: false, triggerOnButton:$('#button') });
 
 			$.material.init()
 		});
